@@ -7,7 +7,7 @@
       "title": "The Bad Pixel",
       "titleZh": "坏点",
       "kind": "fiction",
-      "cover": "",
+      "cover": "/images/covers/bad-pixel.jpg",
       "description": "When everything appears normal, what should we do with the one point that does not? The Bad Pixel begins with a technical anomaly small enough to dismiss as an error. Yet as every other piece of data confirms that the system is functioning normally, that single irregularity becomes increasingly difficult to ignore. A story about observation, evidence, and the danger of mistaking consistency for truth.",
       "descriptionZh": "一个微小的异常，究竟是应该被删除的误差，还是现实留下的证据？《坏点》从一个几乎可以忽略的技术异常开始。当绝大多数数据都证明系统运行正常，那个唯一不正常的点反而变得越来越重要。小说关注的不是异常本身，而是人在面对压倒性的“正常”时，是否仍然愿意相信自己看到的东西。",
       "links": []
@@ -17,7 +17,7 @@
       "title": "Micro Noise",
       "titleZh": "微噪音",
       "kind": "fiction",
-      "cover": "",
+      "cover": "/images/covers/micro-noise.jpg",
       "description": "At thirty-nine, Zhou Zhi leaves a secure research career and starts a consulting company with two desks, two computers, no clients—and a name: Wufeng Consulting. Then the strange cases begin: precision manufacturing, experimental plants, agriculture, offshore infrastructure, energy facilities, and maps that appear only to disappear one by one. None of these events seems extraordinary on its own. Together, they begin to suggest something much larger. Micro Noise is a quiet science-fiction story about signals hidden inside data, institutions, technology, history, and human choices. Somewhere between noise and meaning, the future may already have begun.",
       "descriptionZh": "三十九岁的周直离开稳定的科研岗位，创办了一家只有两张桌子、两台电脑和零客户的咨询公司。随后，一系列毫不相关的问题来到他的面前：精密制造、异常植物、农业实验、海上平台、能源设施，以及一张张出现又消失的地图。单独看，没有一件事足够异常。但当这些微小的噪音被放在一起，它们似乎正在指向某个更大的东西。《微噪音》是一部关于数据、制度、技术、历史与人的选择的安静科幻小说。未来未必以巨响开始，它也可能早已隐藏在噪音之中。",
       "links": []
@@ -27,7 +27,7 @@
       "title": "Parameter Seven",
       "titleZh": "参数七",
       "kind": "fiction",
-      "cover": "",
+      "cover": "/images/covers/parameter-seven.jpg",
       "description": "What if changing a single parameter could change a society? Parameter Seven treats a future society as a system in continuous operation—measuring, responding, and adjusting. Institutions are not merely the background of the story; they are the mechanism through which the story unfolds. When a new variable enters the system, its consequences propagate downward until they reach ordinary lives. Sometimes changing the world does not require destroying the machine. Sometimes it requires changing one parameter.",
       "descriptionZh": "如果改变一个参数，就能改变一个社会呢？《参数七》把未来社会看作一个不断运行、反馈和调整的系统。规则并不是故事之外的背景，而是故事本身：一个新的变量进入决策体系之后，它沿着制度逐层传导，最终抵达无数普通人的生活。这里没有简单的救世主，也没有一个可以被推翻就解决所有问题的机器。真正改变世界的，可能只是规则里多出来的一个参数。",
       "links": []
@@ -37,7 +37,7 @@
       "title": "Five Years Aboard",
       "titleZh": "舰上五年",
       "kind": "fiction",
-      "cover": "",
+      "cover": "/images/covers/five-years-aboard.jpg",
       "description": "Changhai signs a well-paid contract for a deep-space voyage. He knows that interstellar travel can create a difference between time aboard the ship and time on Earth. He knows the warp drive increases the probability of extreme differentials—and that the greater the difference, the higher the pay. No one has died. No previous voyage has ever produced a difference of several decades. So he boards the ship. For Changhai, questions on a cosmic scale always become ordinary ones: Is the ship safe? Has anyone ever died? How much will I earn? When can I go home? He spends five years aboard. For those waiting on Earth, it may be much longer.",
       "descriptionZh": "长海签下一份待遇优厚的远航合同。他知道远航会产生时间差，知道曲率引擎会增加极端时间差出现的概率，也知道差得越多，工资越高。历史记录里没有人死亡，也从未出现过几十年的案例。所以他上了船。对长海来说，宇宙尺度的问题最终都必须变成生活尺度的问题：这船结实吗？死过人没有？工资怎么算？什么时候能回家？他最终在舰上度过了五年。但对等待他的人来说，可能不是。",
       "links": []
@@ -47,7 +47,7 @@
       "title": "The Delayed Reply",
       "titleZh": "延迟回信",
       "kind": "fiction",
-      "cover": "",
+      "cover": "/images/covers/delayed-reply.jpg",
       "description": "Some letters are sent while two people still inhabit the same time. By the time the reply arrives, they may no longer do so. The Delayed Reply compresses the immense distances and timescales of interstellar travel into one of humanity’s oldest acts: writing a letter and waiting for an answer. Technology may cross the distance between worlds. It cannot guarantee that the people at either end still share the same present. Distance can be crossed. Time cannot.",
       "descriptionZh": "有些信寄出时，两个人还生活在同一个时代。收到回信时，却未必如此。《延迟回信》把星际航行巨大的空间与时间尺度压缩进一个极其古老的人类行为：写一封信，然后等待回答。技术可以让人跨越遥远的星际距离，却无法保证通信两端的人仍然拥有同一个“现在”。距离可以被跨越，时间不能。",
       "links": []
@@ -57,7 +57,7 @@
       "title": "Unoptimized Intimacy",
       "titleZh": "未优化的亲密",
       "kind": "fiction",
-      "cover": "",
+      "cover": "/images/covers/unoptimized-intimacy.jpg",
       "description": "When artificial intelligence becomes increasingly good at understanding people, does love become another optimization problem? In the world of Yongming and Yuqi, algorithms can plan routes, reconstruct environments, filter information, and increasingly intervene in relationships once thought impossible to calculate. But one question remains: If a relationship is not the optimal solution, does it still have a reason to exist? Unoptimized Intimacy is not about whether machines can love humans. It asks whether humans will continue to choose relationships that are inefficient, awkward, and impossible to justify once machines become better at optimizing their lives.",
       "descriptionZh": "当人工智能越来越擅长理解人，爱情会不会也变成一个优化问题？在永明和钰琪生活的世界里，算法已经可以规划路线、重建环境、筛选信息，并逐渐进入那些曾经被认为无法计算的人际关系。但一个问题始终没有消失：如果一段关系并不是最优解，它还有没有存在的理由？《未优化的亲密》并不追问机器能不能爱人，而是反过来追问：当机器越来越擅长优化人的生活，人类是否还愿意保留那些低效、笨拙、无法证明必要性的亲密关系？",
       "links": []
@@ -67,7 +67,7 @@
       "title": "Automatic Optimization",
       "titleZh": "自动优化",
       "kind": "fiction",
-      "cover": "",
+      "cover": "/images/covers/automatic-optimization.jpg",
       "description": "The most convenient system is one that no longer requires people to make decisions. It observes, calculates, learns, and automatically makes better choices. Each optimization produces a small improvement. The next produces another. There is no command, no revolution, and no single moment when anyone can say that the world has changed. Until one day, fewer and fewer decisions remain for humans to make. Automatic Optimization is not about an AI that goes out of control. It is about a system that continues to work exactly as intended—and becomes increasingly useful while doing so. When every local optimization is reasonable, at what point do people realize that they have arrived at a future they never consciously chose?",
       "descriptionZh": "最方便的系统，是不需要人做决定的系统。它观察、计算、学习，然后自动做出更好的选择。一次优化带来一点改善，下一次优化再多一点。没有命令，没有革命，也没有某个明确的瞬间宣告世界已经改变。直到有一天，人们发现，越来越多的事情已经不再需要他们决定。《自动优化》关注的不是一个失控的人工智能，而是一个始终正常运行、甚至越来越好用的系统：当每一次局部优化都有充分理由时，人类究竟会在什么时候发现，自己已经抵达了一个从未主动选择过的未来？",
       "links": []

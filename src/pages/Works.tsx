@@ -24,10 +24,10 @@ export default function Works() {
                 <img
                   src={w.cover}
                   alt={`${w.title} cover`}
-                  className="aspect-[2/3] w-full border border-neutral-200 object-cover"
+                  className="aspect-square w-full border border-neutral-200 object-cover"
                 />
               ) : (
-                <div className="flex aspect-[2/3] w-full items-center justify-center border border-dashed border-neutral-300 bg-neutral-50 text-xs uppercase tracking-wide text-neutral-400">
+                <div className="flex aspect-square w-full items-center justify-center border border-dashed border-neutral-300 bg-neutral-50 text-xs uppercase tracking-wide text-neutral-400">
                   Cover pending
                 </div>
               )}
