@@ -7,8 +7,8 @@
       "piece": "Vietnamese folk song",
       "date": "2026",
       "duration": "2:02",
-      "youtube": "",
-      "description": "Piano performance. YouTube link pending — paste it into the youtube field in src/content/amusement.json."
+      "youtube": "https://www.youtube.com/watch?v=VwY9-hf-d2g",
+      "description": "Piano performance."
     }
   ]
 }
