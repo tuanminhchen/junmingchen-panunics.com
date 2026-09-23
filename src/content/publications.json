@@ -108,6 +108,84 @@
           "url": "https://doi.org/10.5281/zenodo.18922538"
         }
       ]
+    },
+    {
+      "id": "water-hammer-fem-pinn",
+      "title": "Prediction Model for Water Hammer Effect Using a Combination of Finite Element Method (FEM) and Physics-Informed Neural Networks (PINNs)",
+      "authors": [
+        "Junming Chen"
+      ],
+      "venue": "2025 IEEE Int. Conf. on Pattern Recognition, Machine Vision and Artificial Intelligence (PRMVAI), Loudi, China",
+      "year": 2025,
+      "type": "conference",
+      "bibtex": "@inproceedings{chen2025waterhammer,\n  title={Prediction Model for Water Hammer Effect Using a Combination of Finite Element Method (FEM) and Physics-Informed Neural Networks (PINNs)},\n  author={Chen, Junming},\n  booktitle={2025 IEEE International Conference on Pattern Recognition, Machine Vision and Artificial Intelligence (PRMVAI)},\n  address={Loudi, China},\n  year={2025},\n  doi={10.1109/PRMVAI65741.2025.11108343},\n  url={https://doi.org/10.1109/PRMVAI65741.2025.11108343}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/PRMVAI65741.2025.11108343"
+        }
+      ]
+    },
+    {
+      "id": "surfactant-lift-coefficient",
+      "title": "Effects of Surfactant on Lift Coefficient of Ellipsoidal Bubbles in the Viscous-Force Dominant Regime",
+      "authors": [
+        "Junming Chen",
+        "Kosuke Hayashi",
+        "Dominique Legendre",
+        "Dirk Lucas",
+        "A. Tomiyama"
+      ],
+      "venue": "Multiphase Science and Technology 35(1), 55–68",
+      "year": 2023,
+      "type": "journal",
+      "bibtex": "@article{chen2023surfactant,\n  title={Effects of Surfactant on Lift Coefficient of Ellipsoidal Bubbles in the Viscous-Force Dominant Regime},\n  author={Chen, Junming and Hayashi, Kosuke and Legendre, Dominique and Lucas, Dirk and Tomiyama, A.},\n  journal={Multiphase Science and Technology},\n  volume={35},\n  number={1},\n  pages={55--68},\n  year={2023},\n  doi={10.1615/MultScienTechnol.2023046718},\n  url={https://doi.org/10.1615/MultScienTechnol.2023046718}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1615/MultScienTechnol.2023046718"
+        }
+      ]
+    },
+    {
+      "id": "ann-lift-shear",
+      "title": "An ANN Correlation of Lift Coefficients of Bubbles in Linear Shear Flows",
+      "authors": [
+        "Kosuke Hayashi",
+        "Junming Chen",
+        "Ryo Kurimoto",
+        "Akio Tomiyama"
+      ],
+      "venue": "Multiphase Science and Technology 34(3)",
+      "year": 2022,
+      "type": "journal",
+      "bibtex": "@article{hayashi2022ann,\n  title={An ANN Correlation of Lift Coefficients of Bubbles in Linear Shear Flows},\n  author={Hayashi, Kosuke and Chen, Junming and Kurimoto, Ryo and Tomiyama, Akio},\n  journal={Multiphase Science and Technology},\n  volume={34},\n  number={3},\n  year={2022},\n  doi={10.1615/MultScienTechnol.2022042904},\n  url={https://doi.org/10.1615/MultScienTechnol.2022042904}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1615/MultScienTechnol.2022042904"
+        }
+      ]
+    },
+    {
+      "id": "drag-correlations-ellipsoidal",
+      "title": "Drag Correlations of Ellipsoidal Bubbles in Clean and Fully-Contaminated Systems",
+      "authors": [
+        "Junming Chen",
+        "Kosuke Hayashi",
+        "Shigeo Hosokawa",
+        "Akio Tomiyama"
+      ],
+      "venue": "Multiphase Science and Technology 31(3), 215–234",
+      "year": 2019,
+      "type": "journal",
+      "bibtex": "@article{chen2019drag,\n  title={Drag Correlations of Ellipsoidal Bubbles in Clean and Fully-Contaminated Systems},\n  author={Chen, Junming and Hayashi, Kosuke and Hosokawa, Shigeo and Tomiyama, Akio},\n  journal={Multiphase Science and Technology},\n  volume={31},\n  number={3},\n  pages={215--234},\n  year={2019},\n  doi={10.1615/MultScienTechnol.2019031210},\n  url={https://doi.org/10.1615/MultScienTechnol.2019031210}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1615/MultScienTechnol.2019031210"
+        }
+      ]
     }
   ]
 }
