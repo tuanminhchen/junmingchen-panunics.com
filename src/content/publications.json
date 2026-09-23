@@ -2,6 +2,24 @@
   "_readme": "Publications data file. Add new papers at the TOP of the list so the site always shows newest first. Fields: id (unique slug), title, authors (array; exact match to your name gets bolded), venue, year, type (journal|conference|preprint|book|other), abstract (optional), bibtex (optional), links (array of {label,url} — e.g. PDF, DOI, Code, Project).",
   "items": [
     {
+      "id": "toc-constraints-cageo",
+      "title": "Encoding geological expertise as modular computable constraints for TOC prediction in source rocks",
+      "authors": [
+        "Junming Chen"
+      ],
+      "venue": "Computers & Geosciences 217, 106250",
+      "year": 2026,
+      "type": "journal",
+      "abstract": "Geological experience accumulated through long-term source-rock evaluation represents a valuable knowledge asset for total organic carbon (TOC) assessment. While data-driven methods can extract nonlinear patterns from well logs and geochemical variables, unconstrained models sometimes exhibit limited geological consistency and robustness across diverse sedimentary basins. To address this limitation, this study proposes a geology-guided workflow that encodes expert geological interpretation rules into modular, computable constraints. Unlike conventional black-box models, the framework represents geological knowledge as basin-specific penalty terms and post-hoc projection operators, including physically plausible TOC limits, log-derived monotonic trends, and S2–TOC geochemical consistency. Constraint activation is governed by pre-specified, modality-driven rules tied to local data availability, ensuring transparent and reproducible implementation while avoiding post-hoc test-set tuning. The framework is evaluated across three source-rock datasets representing contrasting geological settings and data conditions. Results demonstrate that basin-specific geological constraints improve prediction stability while enforcing predefined geological and geochemical consistency criteria, with their contribution varying according to available geological information and data characteristics. Rather than introducing new geological knowledge, this study provides a practical computational framework for transforming geological expertise into transparent, auditable, and reusable computational modules for AI-assisted source-rock TOC prediction.",
+      "bibtex": "@article{chen2026toc,\n  title={Encoding geological expertise as modular computable constraints for TOC prediction in source rocks},\n  author={Chen, Junming},\n  journal={Computers \\& Geosciences},\n  volume={217},\n  pages={106250},\n  year={2026},\n  doi={10.1016/j.cageo.2026.106250},\n  url={https://doi.org/10.1016/j.cageo.2026.106250}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.cageo.2026.106250"
+        }
+      ]
+    },
+    {
       "id": "temporal-routing-ns",
       "title": "Temporal Routing of Incompressible Flow: From a No-Go Theorem for Scalar Delay Representations to a Channel-Augmented Time-Domain Formulation",
       "authors": [
