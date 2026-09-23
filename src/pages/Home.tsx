@@ -64,7 +64,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="order-1 shrink-0 md:order-2">
+          <div className="order-1 shrink-0 md:order-2 md:mt-[4.75rem]">
             <img
               src="images/portrait-2026.jpg"
               alt="Junming Chen (陈俊名)"
