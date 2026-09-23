@@ -33,9 +33,11 @@ export interface Work {
   id: string
   title: string
   titleZh?: string
-  year: number
+  year?: number
   kind: 'fiction' | 'book' | 'essay' | 'other'
   description: string
+  descriptionZh?: string
+  cover?: string
   links: Link[]
 }
 
