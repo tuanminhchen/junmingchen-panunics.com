@@ -127,9 +127,10 @@ export default function Panunics() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-5 py-12">
-        <h2 className="font-display text-xl font-semibold">Essays & Texts</h2>
-        <ul className="mt-4 divide-y divide-neutral-200 border-t border-neutral-200">
+      {p.essays.length > 0 && (
+        <section className="mx-auto max-w-5xl px-5 py-12">
+          <h2 className="font-display text-xl font-semibold">Essays & Texts</h2>
+          <ul className="mt-4 divide-y divide-neutral-200 border-t border-neutral-200">
           {p.essays.map((e, i) => (
             <li key={i} className="flex flex-wrap items-baseline gap-x-4 py-4">
               <span className="text-xs uppercase tracking-wide text-neutral-400">
@@ -154,8 +155,9 @@ export default function Panunics() {
               )}
             </li>
           ))}
-        </ul>
-      </section>
+          </ul>
+        </section>
+      )}
     </div>
   )
 }

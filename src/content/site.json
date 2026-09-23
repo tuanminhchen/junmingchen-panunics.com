@@ -5,7 +5,7 @@
     "brand": "PANUNICS",
     "tagline": "Researcher. Writer. Founder of the Panunics framework.",
     "taglineZh": "研究者、写作者，统域学（Panunics）体系提出者。",
-    "affiliation": "Affiliation to be confirmed",
+    "affiliation": "Guilin University of Aerospace and Technology",
     "email": "dreamingchan@outlook.com",
     "location": "",
     "profiles": [
@@ -19,7 +19,7 @@
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/"
+        "url": "https://github.com/tuanminhchen/junmingchen-panunics.com"
       },
       {
         "label": "LinkedIn",
@@ -38,15 +38,31 @@
     {
       "date": "2026-09",
       "text": "Personal academic website launched at junmingchen-panunics.com."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D.",
+      "school": "Kobe University",
+      "schoolUrl": "https://www.kobe-u.ac.jp/en/",
+      "logo": "/images/logos/kobe-logo.svg"
     },
     {
-      "date": "2026-09",
-      "text": "Sample entry — replace this with your own news via src/content/site.json."
+      "degree": "M.Sc.",
+      "school": "University of Adelaide",
+      "schoolUrl": "https://www.adelaide.edu.au/",
+      "logo": "/images/logos/adelaide-logo.svg"
+    },
+    {
+      "degree": "B.Sc.",
+      "school": "China University of Geosciences",
+      "schoolUrl": "https://www.cug.edu.cn/",
+      "logo": "/images/logos/cug-badge.png"
     }
   ],
   "panunics": {
-    "summary": "PANUNICS is a long-term intellectual framework developed by Junming Chen. This page is its permanent home: principles, essays, and ongoing work. (Replace this summary with your own English statement.)",
-    "summaryZh": "统域学（PANUNICS）是陈俊名长期构建的思想体系。本页为其长期主页，收录核心理念、文章与在研工作。（请替换为正式的中文阐述。）",
+    "summary": "PANUNICS is a long-term intellectual framework developed by Junming Chen. This page is its permanent home: principles, essays, and ongoing work.",
+    "summaryZh": "统域学（PANUNICS）是陈俊名长期构建的思想体系。本页为其长期主页，收录核心理念、文章与在研工作。",
     "principles": [
       {
         "title": "I. Emergence is not complexity growth",
@@ -69,12 +85,6 @@
         "body": "Hierarchy is the reorganization of encapsulation domains. A stable domain defines a new individual; a new individual brings a new budget boundary; a new budget boundary begins a new compression. 层级是封装域的重组：新个体、新预算边界、新压缩过程。"
       }
     ],
-    "essays": [
-      {
-        "title": "Sample Essay Title (replace)",
-        "year": 2026,
-        "note": "Add published essays or manifestos here."
-      }
-    ]
+    "essays": []
   }
 }

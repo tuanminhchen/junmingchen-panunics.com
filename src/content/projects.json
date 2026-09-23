@@ -2,25 +2,19 @@
   "_readme": "Research / project entries. status: active | completed | planned. Add links as {label,url}.",
   "items": [
     {
-      "id": "sample-project-alpha",
-      "title": "Sample Project Alpha",
-      "subtitle": "One-line description of the project",
-      "period": "2025 — present",
+      "id": "tcm-weibing-dynamic-recovery",
+      "title": "Dynamic Recovery of the TCM 'Not-Yet-Ill' (Weibing) State and Inversion of Terminal Phenotypic States",
+      "subtitle": "Multimodal physiological time series × traditional Chinese medicine end-phenotypes",
+      "period": "2026 — present",
       "status": "active",
-      "description": "Describe the project's goal, approach, and current state. Replace this sample entry via src/content/projects.json.",
-      "tags": ["tag-one", "tag-two"],
-      "links": [
-        { "label": "Project page", "url": "" }
-      ]
-    },
-    {
-      "id": "sample-project-beta",
-      "title": "Sample Project Beta",
-      "subtitle": "One-line description",
-      "period": "2023 — 2025",
-      "status": "completed",
-      "description": "Describe what was done and what the outcomes were.",
-      "tags": ["tag-three"],
+      "description": "Traditional Chinese medicine has long emphasized treating the 'not-yet-ill' (治未病): recognizing and correcting transitional states of the body before any clinical indicator crosses a pathological threshold. This project reformulates that clinical intuition as a testable state-inversion problem. The core question is whether 'weibing' first manifests not as a static abnormality but as a declining capacity for dynamic recovery — whether the body returns to its individual baseline after everyday perturbations such as sleep loss, exercise, mental load, or circadian shifts. We invert the latent whole-body physiological state x(t) from observable 'terminal phenotypes' of TCM (tongue, pulse, complexion, sleep, appetite, sweating, thermal sensation, mental state) jointly with continuous wearable physiology (HRV, heart rate, sleep, activity, respiration, temperature). A central hypothesis is that TCM end-phenotypes carry incremental information about future recovery capacity that conventional physiological monitoring alone cannot replace — tested via conditional mutual information and model comparison. The framework further predicts that post-perturbation recovery time is prolonged, multi-system dynamical coupling is degraded, and these dynamic changes precede any static threshold violation, with reproducible associations to TCM constitution and syndrome patterns.",
+      "tags": [
+        "digital TCM",
+        "multimodal time series",
+        "state inversion",
+        "wearables",
+        "early recognition"
+      ],
       "links": []
     }
   ]
