@@ -2,6 +2,24 @@
   "_readme": "Publications data file. Add new papers at the TOP of the list so the site always shows newest first. Fields: id (unique slug), title, authors (array; exact match to your name gets bolded), venue, year, type (journal|conference|preprint|book|other), abstract (optional), bibtex (optional), links (array of {label,url} — e.g. PDF, DOI, Code, Project).",
   "items": [
     {
+      "id": "zhangxue-locomotive-japan-machinery",
+      "title": "The Zhangxue Locomotive Breakthrough and the Boundary of the Success Mechanism of Japan's Machinery Industry: An Analysis Based on 'External Supply Structure – Paradigm Stability – Institutional Adaptation'",
+      "authors": [
+        "Junming Chen",
+        "Xue Zhang"
+      ],
+      "venue": "Contemporary Economy of Japan (现代日本经济), 2026(2), 52–67",
+      "year": 2026,
+      "type": "journal",
+      "abstract": "The breakthrough victory of Zhangxue locomotives (ZX Motor) at the 2026 World Superbike Championship provides a fresh empirical entry point for re-examining the long-standing narrative of Japan's competitive advantage in machinery. Using a unified framework of 'external supply structure – paradigm stability – institutional adaptation', this paper argues that the historical high performance of Japan's machinery industry was not simply the product of endogenous institutional and cultural advantages such as 'craftsman spirit' or seniority-based employment, but a stage-specific outcome of the coupling between a particular external supply structure and a long-stable technological paradigm. The study shows that Japan's legacy success mechanism is deeply embedded in its talent system, supply-chain structure, and profit-generation model, and therefore cannot be easily migrated across environments when the paradigm shifts — instead reversing into structural rigidity. On this basis, the paper proposes a realistic survival path for Japan's machinery industry and draws implications for the development of China's high-end equipment manufacturing and for optimizing China–Japan industrial division of labor.",
+      "links": [
+        {
+          "label": "Full text (NSSD)",
+          "url": "https://ncpssd.org/message?id=21795"
+        }
+      ]
+    },
+    {
       "id": "toc-constraints-cageo",
       "title": "Encoding geological expertise as modular computable constraints for TOC prediction in source rocks",
       "authors": [
