@@ -6,13 +6,25 @@
     "tagline": "Researcher. Writer. Founder of the Panunics framework.",
     "taglineZh": "研究者、写作者，统域学（Panunics）体系提出者。",
     "affiliation": "Affiliation to be confirmed",
-    "email": "contact@junmingchen-panunics.com",
+    "email": "dreamingchan@outlook.com",
     "location": "",
     "profiles": [
-      { "label": "Google Scholar", "url": "" },
-      { "label": "ORCID", "url": "" },
-      { "label": "GitHub", "url": "https://github.com/" },
-      { "label": "LinkedIn", "url": "" }
+      {
+        "label": "Google Scholar",
+        "url": ""
+      },
+      {
+        "label": "ORCID",
+        "url": ""
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": ""
+      }
     ]
   },
   "researchInterests": [
