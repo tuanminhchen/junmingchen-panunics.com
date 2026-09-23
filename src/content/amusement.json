@@ -1,0 +1,14 @@
+{
+  "_readme": "Self Amusement entries — piano / music / personal recordings. Provide a YouTube link ('youtube': the full URL or just the video id) and the page embeds it. Local video files are also supported ('video': path under public/videos/) but prefer YouTube to keep the repository small. Add newest at the TOP.",
+  "items": [
+    {
+      "id": "beo-dat-may-troi-part1",
+      "title": "Bèo Dạt Mây Trời — Part 1",
+      "piece": "Vietnamese folk song",
+      "date": "2026",
+      "duration": "2:02",
+      "youtube": "",
+      "description": "Piano performance. YouTube link pending — paste it into the youtube field in src/content/amusement.json."
+    }
+  ]
+}

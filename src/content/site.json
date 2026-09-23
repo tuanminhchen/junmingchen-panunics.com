@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "name": "Junming Chen",
+    "nameZh": "陈俊名",
+    "brand": "PANUNICS",
+    "tagline": "Researcher. Writer. Founder of the Panunics framework.",
+    "taglineZh": "研究者、写作者，统域学（Panunics）体系提出者。",
+    "affiliation": "Affiliation to be confirmed",
+    "email": "contact@junmingchen-panunics.com",
+    "location": "",
+    "profiles": [
+      { "label": "Google Scholar", "url": "" },
+      { "label": "ORCID", "url": "" },
+      { "label": "GitHub", "url": "https://github.com/" },
+      { "label": "LinkedIn", "url": "" }
+    ]
+  },
+  "researchInterests": [
+    "Interest area 1 — replace via src/content/site.json",
+    "Interest area 2",
+    "Interest area 3",
+    "Interest area 4"
+  ],
+  "news": [
+    {
+      "date": "2026-09",
+      "text": "Personal academic website launched at junmingchen-panunics.com."
+    },
+    {
+      "date": "2026-09",
+      "text": "Sample entry — replace this with your own news via src/content/site.json."
+    }
+  ],
+  "panunics": {
+    "summary": "PANUNICS is a long-term intellectual framework developed by Junming Chen. This page is its permanent home: principles, essays, and ongoing work. (Replace this summary with your own English statement.)",
+    "summaryZh": "统域学（PANUNICS）是陈俊名长期构建的思想体系。本页为其长期主页，收录核心理念、文章与在研工作。（请替换为正式的中文阐述。）",
+    "principles": [
+      {
+        "title": "I. Emergence is not complexity growth",
+        "body": "Emergence is not a byproduct of uncontrolled complexity growth. It is the result of domain formation after the failure of high-dimensional distributed coordination. 涌现不是复杂度增长的副产物，而是高维分布式协调失败后的成域结果。"
+      },
+      {
+        "title": "II. The central contradiction is sustainability",
+        "body": "The central question of a system is not whether it is complex, but whether the expansion of its degrees of freedom can be sustained under finite accessible state capacity. Compression becomes necessary. 核心矛盾不是复杂与否，而是自由度扩张能否在有限可达容量下持续。"
+      },
+      {
+        "title": "III. Singular features are compressed outputs",
+        "body": "Macroscopic singular features are not accidental patterns. They are stable outputs after accessible state capacity has contracted: band gaps, magnetic order, vortices, generalized rules, stable conformations, states, firms, institutions. 宏观奇异特征是容量收缩后的稳定输出，不是偶然图样。"
+      },
+      {
+        "title": "IV. Boundaries are conditions, not accidents",
+        "body": "Boundaries are conditions of sustained stable domains. Without boundaries, a system cannot separate internal high-dimensional detail from external coupling requirements — and without that separation, encapsulation does not exist. 边界是稳定域得以维持的条件，而非次级现象。"
+      },
+      {
+        "title": "V. Hierarchy is reorganization, not accumulation",
+        "body": "Hierarchy is the reorganization of encapsulation domains. A stable domain defines a new individual; a new individual brings a new budget boundary; a new budget boundary begins a new compression. 层级是封装域的重组：新个体、新预算边界、新压缩过程。"
+      }
+    ],
+    "essays": [
+      {
+        "title": "Sample Essay Title (replace)",
+        "year": 2026,
+        "note": "Add published essays or manifestos here."
+      }
+    ]
+  }
+}

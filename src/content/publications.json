@@ -1,0 +1,95 @@
+{
+  "_readme": "Publications data file. Add new papers at the TOP of the list so the site always shows newest first. Fields: id (unique slug), title, authors (array; exact match to your name gets bolded), venue, year, type (journal|conference|preprint|book|other), abstract (optional), bibtex (optional), links (array of {label,url} — e.g. PDF, DOI, Code, Project).",
+  "items": [
+    {
+      "id": "temporal-routing-ns",
+      "title": "Temporal Routing of Incompressible Flow: From a No-Go Theorem for Scalar Delay Representations to a Channel-Augmented Time-Domain Formulation",
+      "authors": [
+        "Junming Chen"
+      ],
+      "venue": "Zenodo preprint",
+      "year": 2026,
+      "type": "preprint",
+      "abstract": "We develop a research framework for reformulating the incompressible Navier–Stokes equations (NS) as a time-domain dynamical system, in which spatial degrees of freedom are re-encoded — rather than deleted — into a temporal evolution together with an internal channel state. Our contributions are of three kinds. (i) A no-go theorem. We prove rigorously that a naive scalar temporal reduction is impossible: no bounded invertible conjugation can map the spatial differential operators ∂xi, Δ into the class of scalar delay/tap operators. Three independent obstructions are established: a boundedness obstruction (bounded delay networks cannot be similar to the closed unbounded operators ∂xi,Δ); a spectral-multiplicity obstruction (similarity of self-adjoint operators forces unitary equivalence and hence equality of spectral multiplicity, and Δ has uniform infinite multiplicity while a scalar temporal second derivative has multiplicity at most two); and a joint-spectrum dimensional obstruction (for symbols that are C1, the joint Taylor spectrum of any commuting triple of time-Fourier multipliers has Hausdorff dimension at most one, whereas σT(∂x1,∂x2,∂x3)=(iℝ)3 has dimension three; the Taylor spectrum is a similarity invariant). We further record the structural obstructions that any surviving framework must confront: the nonlinear product obstruction, the directional dependence of the Leray projector, and the non-locality of pressure reconstruction. (ii) A channel-augmented representation. Motivated precisely by the failure of the scalar picture, we propose the channel-augmented temporal representation T: Xspace → L2(ℝt; Hc), whose target carries an internal channel space Hc. The no-go results force Hc to be infinite dimensional and the routing operators to be unbounded; accordingly the proposal is not a dimensional reduction but a spatial-to-temporal state re-encoding. We construct the representation exactly in two special cases (one-dimensional transport, where the spatial derivative is the generator of the delay group; and the Fourier-diagonal case, where the channel index is the frequency variable) and state the general case as an ansatz with explicitly listed proof obligations. (iii) Formal derivations, benchmarks and conjectures. We give a formal derivation of viscosity as temporal relaxation, verify consistency of the picture with the Poiseuille and Stokes limits, and analyse a temporal analogue of the Frank–Kamenetskii equation, which exhibits finite-time amplification. The latter is explicitly an analogue and is not a proof of finite-time blow-up for NS. We conclude with precise conjectures and with an explicit list of the mathematical statements that would have to be proved for the framework to bear on the NS regularity problem. Disclaimer. This manuscript does not solve the Clay Millennium Prize problem. It contains no claim of global regularity or of finite-time singularity formation for the three-dimensional incompressible Navier–Stokes equations. Statements are labelled [PROVED], [FORMALLY DERIVED], [CONJECTURED], [ANSATZ], or [OPEN] throughout.",
+      "bibtex": "@misc{chen2026temporal,\n  title={Temporal Routing of Incompressible Flow: From a No-Go Theorem for Scalar Delay Representations to a Channel-Augmented Time-Domain Formulation},\n  author={Chen, Junming},\n  year={2026},\n  howpublished={Zenodo preprint},\n  doi={10.5281/zenodo.22780590},\n  url={https://doi.org/10.5281/zenodo.22780590}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.5281/zenodo.22780590"
+        }
+      ]
+    },
+    {
+      "id": "continuation-criterion-scalar-coupled",
+      "title": "A Continuation Criterion for a Scalar-Coupled Incompressible Flow with Degenerate Effective Viscosity",
+      "authors": [
+        "Junming Chen"
+      ],
+      "venue": "Zenodo preprint",
+      "year": 2026,
+      "type": "preprint",
+      "abstract": "I study a regularized quasilinear system for an incompressible fluid whose effective viscosity is dynamically modulated by a non-negative auxiliary scalar field ϕ. The model is posed on the three-dimensional torus T³ and incorporates a strain-rate regularization parameter δ>0 and a background viscosity κ>0. I establish the local well-posedness of classical solutions in the Sobolev space Hˢ(T³) for s>5/2, under the strengthened regularity hypothesis a,b∈L∞(0,T;Hˢ∩L∞). The scalar field is shown to be globally non-negative with an L∞ maximum principle, and the basic energy dissipation inequality is derived. The principal result is a continuation criterion in which the spatial gradients ∇u and ∇ϕ are required to satisfy a p-th power integrability condition, where the exponent p≥1 is dictated by the conditional ellipticity of the nonlinear viscous operator. This furnishes a robust functional-analytic framework for studying structural depletion and the associated loss of coercivity in fluid systems.",
+      "bibtex": "@misc{chen2026continuation,\n  title={A Continuation Criterion for a Scalar-Coupled Incompressible Flow with Degenerate Effective Viscosity},\n  author={Chen, Junming},\n  year={2026},\n  howpublished={Zenodo preprint},\n  doi={10.5281/zenodo.19697168},\n  url={https://doi.org/10.5281/zenodo.19697168}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.5281/zenodo.19697168"
+        }
+      ]
+    },
+    {
+      "id": "needham-puzzle-ae",
+      "title": "The Needham Puzzle as a Problem of Structural Incompatibility: E-Type Rule over an A-Type Civilizational Base",
+      "authors": [
+        "Junming Chen"
+      ],
+      "venue": "Zenodo preprint",
+      "year": 2026,
+      "type": "preprint",
+      "abstract": "The Needham Puzzle asks why China, despite its long historical leadership in technology, statecraft, and economic organization, did not generate an indigenous transition to modern industrial civilization. Existing explanations have often emphasized static long-term variables such as culture, geography, or demographic pressure, but these approaches do not fully explain why a civilization with strong accumulative capacity lost its developmental continuity. Drawing on the A/E framework established in Chen (2026), this paper argues that the Needham Puzzle should be reframed as a problem of structural incompatibility rather than civilizational deficiency. An A-type civilization is characterized by cooperation, production, and long-term accumulation, whereas an E-type ruling structure is defined by extraction, monopoly, and regime-preservation logic. When a small E-type ruling coalition dominates an A-type civilizational base, the system tends toward fiscal parasitism, suppression of autonomous organization, politicization of technology, and narrowing of intellectual space, ultimately producing developmental interruption rather than sustained upgrading. From this perspective, the central issue is not why Chinese civilization lacked the capacity for modernization, but why that capacity came to be governed by a ruling structure fundamentally misaligned with its expansion. The paper offers a concise reinterpretation of the Needham Puzzle through the lens of civilizational structure and ruling incentives.",
+      "bibtex": "@misc{chen2026needham,\n  title={The Needham Puzzle as a Problem of Structural Incompatibility: E-Type Rule over an A-Type Civilizational Base},\n  author={Chen, Junming},\n  year={2026},\n  howpublished={Zenodo preprint},\n  doi={10.5281/zenodo.19157952},\n  url={https://doi.org/10.5281/zenodo.19157952}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.5281/zenodo.19157952"
+        }
+      ]
+    },
+    {
+      "id": "ae-classification-backtest",
+      "title": "Testing a Minimal A/E Civilizational Classification Model: A Long-Run Backtest on the United States, 1871–2024",
+      "authors": [
+        "Junming Chen"
+      ],
+      "venue": "Zenodo preprint",
+      "year": 2026,
+      "type": "preprint",
+      "abstract": "This paper investigates the empirical calculability and baseline identification capacity of the A/E civilizational classification mathematical model within the framework of civilizational metrics. Operating strictly under the premise of minimizing external structural variables — thus deliberately excluding high-dimensional indicators such as capital accumulation, institutional bandwidth, and financial yields — this study reduces the external value flow to a singular trade structure indicator. By defining the core index as a log-odds transformation of the export share, the model is backtested using annual time-series data for the United States from 1871 to 2024. The continuous calculation of the core index sequence reveals a highly significant structural segmentation. The historical trajectory of the United States demonstrates a clear three-stage evolutionary structure, with critical transition nodes concentrated around 1878, 1944, and 1971. Notably, the period surrounding 1971 marks a systemic institutional rupture, signifying a definitive transition from an A-type (production and net-output tendency) to an E-type (absorption and net-input tendency) civilization. The findings confirm that despite its minimal operational architecture, the model possesses robust identification capabilities. It successfully demonstrates that civilizational typologies can be formalized into verifiable, computable econometric sequences, thereby establishing a rigorous, reproducible baseline for the future development of high-dimensional civilizational classifiers.",
+      "bibtex": "@misc{chen2026aemodel,\n  title={Testing a Minimal A/E Civilizational Classification Model: A Long-Run Backtest on the United States, 1871--2024},\n  author={Chen, Junming},\n  year={2026},\n  howpublished={Zenodo preprint},\n  doi={10.5281/zenodo.19059057},\n  url={https://doi.org/10.5281/zenodo.19059057}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.5281/zenodo.19059057"
+        }
+      ]
+    },
+    {
+      "id": "civilitics",
+      "title": "Civilitics",
+      "authors": [
+        "Junming Chen"
+      ],
+      "venue": "Zenodo preprint",
+      "year": 2026,
+      "type": "preprint",
+      "abstract": "原创文明学量化标准。(Original quantitative standards for the study of civilization — Civilitics.)",
+      "bibtex": "@misc{chen2026civilitics,\n  title={Civilitics},\n  author={Chen, Junming},\n  year={2026},\n  howpublished={Zenodo preprint},\n  doi={10.5281/zenodo.18922538},\n  url={https://doi.org/10.5281/zenodo.18922538}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.5281/zenodo.18922538"
+        }
+      ]
+    }
+  ]
+}

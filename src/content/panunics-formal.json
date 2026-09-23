@@ -1,0 +1,84 @@
+{
+  "_readme": "Panunics 形式化核心：从基础论文提炼的公理-定理-引理体系。编辑条目即可更新 Panunics 页面的 Formal Core 栏目。",
+  "source": "J. Chen, “Panuics: A Foundational Discipline of Budget, Domain Formation, and Emergence”, Zenodo preprint.",
+  "sections": [
+    {
+      "key": "definitions",
+      "label": "Definitions",
+      "labelZh": "基本定义",
+      "items": [
+        { "id": "D1", "name": "Hard constraint (硬约束)", "statement": "A constraint the system cannot violate without changing the definition of the system itself: conservation laws, geometric boundaries, topological invariants, normalization, incompressibility, covalent connectivity, institutional hard boundaries, architectural capacity limits.", "noteZh": "违反它 = 系统不再是这个系统。" },
+        { "id": "D2", "name": "Total accessible-state boundary Γ₀ (总可达状态边界)", "statement": "The complete boundary of all possible states of the system under its fixed hard constraints. Γ₀ is not the current state of the system; it is the boundary of everything the system could possibly be.", "noteZh": "不是当前状态，而是全部可能状态的边界。" },
+        { "id": "D3", "name": "Budget B (预算)", "statement": "At resolution ε, the budget is the minimum number of state cells required to cover Γ₀ at that precision: B = N(Γ₀, ε). Budget is the total accessible-state capacity permitted by hard constraints — not a surface observable such as contact count or Reynolds number.", "noteZh": "预算 = 覆盖整个状态边界所需的最小状态单元数。" },
+        { "id": "D4", "name": "Actually accessible subset Γ_t (实际可达状态子集)", "statement": "The subset of states the system can actually enter and sustain at time t, under dynamics, boundary conditions, compatibility requirements, objective functions, dissipation, and environmental pressure. Γ_t ⊆ Γ₀.", "noteZh": "系统现实中进得去、待得住的状态集合。" },
+        { "id": "D5", "name": "Accessible state capacity C(Γ_t) (可达状态容量)", "statement": "The capacity of the actually accessible subset, with C(Γ_t) ≤ B by construction. Budget conservation applies to B; capacity compression applies to C(Γ_t). This inequality is the primary structural distinction of Panunics.", "noteZh": "核心区分：预算守恒，容量压缩。" },
+        { "id": "D6", "name": "Stable domain D_s (稳定域)", "statement": "A state region such that once the system enters it, it tends to remain, return, or lock in. Persistent within the budget boundary; a sustainable, low-dimensional, non-transient organized state, manifest as a boundary, a singular feature, or a structured output.", "noteZh": "进去就出不来（或会回来）的可持续区域。" },
+        { "id": "D7", "name": "Encapsulation domain (封装域)", "statement": "A stable domain whose internal high-dimensional detail is hidden, exposing only a small number of interface variables; external systems cannot manipulate its internal degrees of freedom one by one, and it is treated as an integral whole in higher-level coupling.", "noteZh": "内部细节被隐藏、只剩少量接口的稳定域。" },
+        { "id": "D8", "name": "Hierarchical individual (层级个体)", "statement": "An encapsulation domain that participates as a basic unit inside a higher-level budget boundary. An individual is not a primitive ontological object; it is a domain after successful encapsulation.", "noteZh": "个体不是本体论原语，而是封装成功的域。" },
+        { "id": "D9", "name": "Macroscopic singular feature (宏观奇异特征)", "statement": "The sustainable, low-dimensional, stable, recognizable dominant feature output by an encapsulation domain at the macroscopic level: vortices, band gaps, magnetic order, flat-band peaks, rule-state generalization, stable protein conformations, state stability, firm profitability, institutional order.", "noteZh": "封装域在宏观层面输出的低维主导特征。" }
+      ]
+    },
+    {
+      "key": "axioms",
+      "label": "Axioms",
+      "labelZh": "公理",
+      "items": [
+        { "id": "A1", "name": "Conservation of budget, compression of access (预算守恒与可达压缩)", "statement": "If the hard constraints are fixed, then Γ₀ is fixed and the budget B is conserved: Ḃ = 0. The conserved object is the total accessible-state boundary; the compressed object is the actually accessible subset Γ_t. Conservation of B does not imply exploration of the whole boundary.", "noteZh": "第一定律：预算不压缩，压缩的是实际可达子集。" },
+        { "id": "A2", "name": "Capacity compression (容量压缩)", "statement": "As boundary conditions, compatibility requirements, dissipation, objective functions, and environmental pressure continue to act, the accessible subset contracts: dC(Γ_t)/dt ≤ 0. Compression is the contraction of the set of states the system can actually access and sustain within the conserved budget boundary — not visual shrinkage and not decline of B itself.", "noteZh": "在守恒的预算边界之内，实际可达容量持续收缩。" },
+        { "id": "A3", "name": "Emergence as domain formation (涌现即稳定域形成)", "statement": "When the system can no longer sustain high-dimensional distributed coordination and the accessible capacity falls below a critical threshold I_c — determined by the system's hard constraints, coupling structure, boundary conditions, and objective functions — the system is forced to contract into a stable domain: C(Γ_t) < I_c ⇒ D_s forms. Emergence is not the byproduct of complexity growth; it is the result of domain formation after capacity compression.", "noteZh": "压缩跌破临界阈值 → 被迫坍缩成稳定域。涌现 ≠ 复杂度增长的副产物。" },
+        { "id": "A4", "name": "Encapsulation (封装)", "statement": "A stable domain that persists progressively removes its internal variables from higher-level direct coupling. When it has formed a boundary, hidden its internal high-dimensional detail, and retained only a small number of external interfaces, it becomes an encapsulation domain. Encapsulation is the precondition of a new individual.", "noteZh": "持续存在的稳定域迟早把内部细节从上级耦合中撤走。" },
+        { "id": "A5", "name": "Hierarchical transition (层级跃迁)", "statement": "When multiple encapsulation domains form stable couplings and enter a new budget boundary, they become new individuals at a higher level; a new budget boundary appears, a new compression process begins, and new stable domains and encapsulation domains form. Hierarchy is reorganization among encapsulation domains, not the accumulation of quantity.", "noteZh": "封装域重组进入新预算边界 = 新个体；层级由此生成。" }
+      ]
+    },
+    {
+      "key": "lemmas",
+      "label": "Lemmas",
+      "labelZh": "引理",
+      "items": [
+        { "id": "L1", "name": "Non-exploration lemma (非遍历引理)", "statement": "Budget conservation does not imply that the system explores its entire boundary. Proof: by A1, Γ₀ is fixed; by D4 the realized dynamics are restricted to Γ_t ⊆ Γ₀. The system never needed access to all of its budget.", "noteZh": "预算守恒 ≠ 遍历整个状态边界。" },
+        { "id": "L2", "name": "Growth-without-emergence lemma (增长无涌现引理)", "statement": "Complexity growth alone does not generate stable domains, boundaries, or hierarchy. Proof: by A3, a stable domain forms only when C(Γ_t) < I_c. An increase of degrees of freedom without capacity compression leaves C(Γ_t) at or above threshold; no domain is forced.", "noteZh": "只有自由度增长、没有容量压缩，就不会涌现出稳定结构。" },
+        { "id": "L3", "name": "Boundary-necessity lemma (边界必要引理)", "statement": "Without boundaries, encapsulation does not exist. Proof: encapsulation is defined as the hiding of internal detail from external coupling (D7); hiding requires a separation between internal high-dimensional detail and external interface variables; that separation is a boundary. Hence boundaries are conditions of sustained stable domains, not secondary phenomena.", "noteZh": "没有边界就没有封装；边界是稳定域的存在条件。" }
+      ]
+    },
+    {
+      "key": "theorem",
+      "label": "Main Theorem",
+      "labelZh": "基本定理",
+      "items": [
+        {
+          "id": "T1",
+          "name": "Central proposition of Panunics (统域学中心命题)",
+          "statement": "The overall direction of world evolution is not the unbounded expansion of complexity. It is the continuous expansion of degrees of freedom together with the continuous contraction of accessible state capacity under fixed budget boundaries, which forces systems to form low-dimensional stable domains, encapsulation domains, and higher-level individuals.",
+          "proof": "Mechanism chain: fixed hard constraints conserve the budget B (A1). Boundary conditions, compatibility, dissipation, objectives, and environmental pressure compress the accessible capacity C(Γ_t) (A2). When C(Γ_t) < I_c, high-dimensional distributed coordination fails and the system is forced into a stable domain D_s (A3). Sustained stable domains hide internal detail and become encapsulation domains (A4). Encapsulation domains enter a new budget boundary as new individuals, where the chain restarts (A5). Therefore every cycle of the chain produces stable domains, encapsulation, and hierarchy out of DOF expansion plus capacity contraction — and nothing in the chain requires unbounded complexity growth. ∎ (sketch)",
+          "noteZh": "世界演化的总方向：自由度扩张 + 可达容量收缩 → 稳定域 → 封装 → 层级。"
+        }
+      ]
+    },
+    {
+      "key": "corollaries",
+      "label": "Corollaries",
+      "labelZh": "推论",
+      "items": [
+        { "id": "C1", "statement": "Macroscopic singular features are not accidental patterns; they are stable outputs after capacity compression.", "noteZh": "宏观奇异特征不是偶然图样，而是容量压缩后的稳定输出。" },
+        { "id": "C2", "statement": "Boundaries are not secondary phenomena; they are conditions of sustained stable domains.", "noteZh": "边界不是次级现象，而是稳定域得以维持的条件。" },
+        { "id": "C3", "statement": "Subjects are not mysterious entities; they are higher-order forms of encapsulation domains.", "noteZh": "主体并不神秘，主体是封装域的高阶形态。" },
+        { "id": "C4", "statement": "Organization is not the simple addition of degrees of freedom; it is the higher-level encapsulation produced by the surrender of part of those degrees of freedom.", "noteZh": "组织不是自由度相加，而是交出部分自由度后形成的高阶封装。" },
+        { "id": "C5", "statement": "Hierarchy is not the cumulative result of “more complexity”; it is the reorganization of encapsulation domains under new budget boundaries.", "noteZh": "层级不是复杂度堆出来的，而是封装域在新预算边界下的重组。" },
+        { "id": "C6", "statement": "The total direction of the world is not infinite complexification: under fixed budget boundaries, the expansion of degrees of freedom forces the contraction of accessible capacity, and systems repeatedly collapse into the most cost-effective, most sustainable, most encapsulable domains.", "noteZh": "世界的总方向不是无限复杂化，而是反复坍缩到最具成本效益、最可持续、最可封装的域。" }
+      ]
+    },
+    {
+      "key": "program",
+      "label": "Research Program",
+      "labelZh": "研究程序",
+      "items": [
+        { "id": "P1", "statement": "State the hard constraints explicitly; determine Γ₀. If the hard constraints cannot be identified, Panunics analysis cannot begin." },
+        { "id": "P2", "statement": "Quantify the budget B (or a rigorous proxy). A result variable, control parameter, or convenient surface variable cannot substitute for the budget." },
+        { "id": "P3", "statement": "Quantify capacity compression: specify Γ_t and C(Γ_t). Valid proxies include participation ratio, stable rank, Gini coefficient, modal concentration, effective degrees of freedom, feasible-set volume estimates — provided they measure accessible capacity, not visual texture." },
+        { "id": "P4", "statement": "Identify stable domains: persistence, low dimensionality, non-transience, distinguishability from background noise, repeatable maintenance or return within the budget boundary." },
+        { "id": "P5", "statement": "Identify encapsulation domains: has the stable domain formed a boundary and hidden its internal high-dimensional detail?" },
+        { "id": "P6", "statement": "Identify hierarchical transition: the old domain no longer appears as a naked variable but participates as a new individual inside a higher-level budget boundary." }
+      ]
+    }
+  ]
+}

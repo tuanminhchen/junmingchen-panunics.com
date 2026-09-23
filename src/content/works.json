@@ -1,0 +1,25 @@
+{
+  "_readme": "Sci-fi writing and books. kind: fiction | book | essay | other.",
+  "items": [
+    {
+      "id": "sample-fiction-1",
+      "title": "Sample Science Fiction Story",
+      "titleZh": "示例科幻作品标题",
+      "year": 2026,
+      "kind": "fiction",
+      "description": "One-paragraph introduction to the work. Replace this sample via src/content/works.json.",
+      "links": []
+    },
+    {
+      "id": "sample-book-1",
+      "title": "Sample Book Title",
+      "titleZh": "示例图书标题",
+      "year": 2025,
+      "kind": "book",
+      "description": "Introduction to the book: what it covers, who it is for, where to get it.",
+      "links": [
+        { "label": "Publisher / store link", "url": "" }
+      ]
+    }
+  ]
+}

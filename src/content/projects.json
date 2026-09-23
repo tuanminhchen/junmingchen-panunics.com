@@ -1,0 +1,27 @@
+{
+  "_readme": "Research / project entries. status: active | completed | planned. Add links as {label,url}.",
+  "items": [
+    {
+      "id": "sample-project-alpha",
+      "title": "Sample Project Alpha",
+      "subtitle": "One-line description of the project",
+      "period": "2025 — present",
+      "status": "active",
+      "description": "Describe the project's goal, approach, and current state. Replace this sample entry via src/content/projects.json.",
+      "tags": ["tag-one", "tag-two"],
+      "links": [
+        { "label": "Project page", "url": "" }
+      ]
+    },
+    {
+      "id": "sample-project-beta",
+      "title": "Sample Project Beta",
+      "subtitle": "One-line description",
+      "period": "2023 — 2025",
+      "status": "completed",
+      "description": "Describe what was done and what the outcomes were.",
+      "tags": ["tag-three"],
+      "links": []
+    }
+  ]
+}
