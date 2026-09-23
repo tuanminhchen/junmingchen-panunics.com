@@ -28,10 +28,11 @@
     ]
   },
   "researchInterests": [
-    "Interest area 1 — replace via src/content/site.json",
-    "Interest area 2",
-    "Interest area 3",
-    "Interest area 4"
+    "Mathematical fluid mechanics — time-domain reformulations of incompressible flow, well-posedness, no-go theorems, and continuation criteria",
+    "AI for geoscience and engineering — physics-informed neural networks, computable geological constraints, data-driven prediction under physical consistency",
+    "Civilizational metrics — quantitative classification of civilizations (the A/E framework), Civilitics, and long-run historical backtests",
+    "Multiphase flow — bubble dynamics, interfacial forces (lift and drag), and data-driven closure models",
+    "International relations theory — the SPCS (State–Subjectivity / Power Coordinate System) framework and the scope conditions of theory"
   ],
   "news": [
     {
