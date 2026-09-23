@@ -2,6 +2,19 @@
   "_readme": "Publications data file. Add new papers at the TOP of the list so the site always shows newest first. Fields: id (unique slug), title, authors (array; exact match to your name gets bolded), venue, year, type (journal|conference|preprint|book|other), abstract (optional), bibtex (optional), links (array of {label,url} — e.g. PDF, DOI, Code, Project).",
   "items": [
     {
+      "id": "mechanical-salaryman",
+      "title": "機械仕掛けのサラリーマン AI時代の賞味期限: なぜ真面目に働くだけでは生き残れないのか",
+      "authors": [
+        "Junming Chen"
+      ],
+      "venue": "Japanese-language book",
+      "year": 2026,
+      "type": "book",
+      "abstract": "【本書について】「このまま今の仕事を続けていて、本当に大丈夫なのだろうか？」そんな名状しがたい窒息感を抱えるすべてのビジネスパーソンへ。AI（人工知能）の進化により、過去300年続いてきた「真面目に、ミスのない完璧な仕事をする」という生存戦略は完全に崩壊しました。AIは限界費用ゼロで「完璧な標準化労働」を大量生産します。あなたがどれほどエクセルを極め、SOP（標準作業手順）を完璧にこなしても、機械の効率には絶対に勝てません。では、シリコンベースの激流の中で、私たちカーボンベース（人間）が生き残るための「武器」とは何でしょうか？ それはプログラミングスキルでも、AIのプロンプト技術でもありません。あなたの肉体が経験した痛み、偏愛、そして不完全さから生まれる「知覚的希少性」です。本書は、工学博士である著者が物理学と情報理論の視点から解き明かす、極めて冷徹な「越獄（システムからの脱出）」のための操作マニュアルです。【本書の主な内容】線形的な努力の終焉／生産力パラドックス／AIの二重メカニズム／知覚的希少性：AIが永遠に超えられない5つの生物学的防衛線／一般人のためのパラダイム・シフト。巻末付録：職業寿命アセスメントシート＆90日間実践ロードマップ収録。",
+      "bibtex": "@book{chen2026mechanical,\n  title={機械仕掛けのサラリーマン AI時代の賞味期限: なぜ真面目に働くだけでは生き残れないのか},\n  author={Chen, Junming},\n  year={2026},\n  note={Japanese-language book}\n}",
+      "links": []
+    },
+    {
       "id": "zhangxue-locomotive-japan-machinery",
       "title": "The Zhangxue Locomotive Breakthrough and the Boundary of the Success Mechanism of Japan's Machinery Industry: An Analysis Based on 'External Supply Structure – Paradigm Stability – Institutional Adaptation'",
       "authors": [
