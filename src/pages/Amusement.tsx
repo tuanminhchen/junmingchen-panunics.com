@@ -27,7 +27,7 @@ export default function Amusement() {
     <div>
       <PageHeader
         title="Self Amusement"
-        subtitle="Piano and other recordings, kept here for no reason except that they exist. Entries live in src/content/amusement.json."
+        subtitle="Piano and other recordings, kept here for no reason except that they exist."
       />
       <div className="mx-auto max-w-5xl space-y-14 px-5 py-12">
         {items.map((v) => (

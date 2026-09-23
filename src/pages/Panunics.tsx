@@ -28,7 +28,7 @@ export default function Panunics() {
     <div>
       <PageHeader
         title="Panunics · 统域学"
-        subtitle="The permanent home of the Panunics framework — principles, essays, and ongoing work. Edit src/content/site.json (the panunics section) to update."
+        subtitle="The permanent home of the Panunics framework — principles, essays, and ongoing work."
       />
 
       <section className="mx-auto max-w-5xl px-5 py-12">
@@ -75,7 +75,7 @@ export default function Panunics() {
           </h2>
           <p className="mt-2 max-w-2xl text-sm text-neutral-500">
             The axiom–theorem–lemma skeleton of Panunics, condensed from the
-            foundational text. Data lives in src/content/panunics-formal.json.
+            foundational text.
           </p>
 
           <div className="mt-10 space-y-14">

@@ -52,7 +52,7 @@ export default function Publications() {
     <div>
       <PageHeader
         title="Publications"
-        subtitle="Complete index of papers and publications. Data lives in src/content/publications.json — add a new entry there and it appears here automatically."
+        subtitle="Complete index of papers and publications."
       />
 
       <div className="mx-auto max-w-5xl px-5 py-10">

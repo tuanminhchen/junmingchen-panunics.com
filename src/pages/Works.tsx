@@ -13,7 +13,7 @@ export default function Works() {
         subtitle={
           tagline
             ? `${tagline} · 关于生活在非凡系统里的普通人。`
-            : 'Science fiction and books. Entries live in src/content/works.json.'
+            : 'Science fiction and books.'
         }
       />
       <div className="mx-auto max-w-5xl px-5 py-12">

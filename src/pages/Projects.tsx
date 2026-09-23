@@ -15,7 +15,7 @@ export default function Projects() {
     <div>
       <PageHeader
         title="Projects"
-        subtitle="Research projects and their public entry points. Edit src/content/projects.json to add or update entries."
+        subtitle="Research projects and their public entry points."
       />
       <div className="mx-auto max-w-5xl px-5 py-12">
         <div className="grid gap-8 md:grid-cols-2">
