@@ -2,37 +2,6 @@
   "_readme": "Publications data file. Add new papers at the TOP of the list so the site always shows newest first. Fields: id (unique slug), title, authors (array; exact match to your name gets bolded), venue, year, type (journal|conference|preprint|book|other), abstract (optional), bibtex (optional), links (array of {label,url} — e.g. PDF, DOI, Code, Project).",
   "items": [
     {
-      "id": "mechanical-salaryman",
-      "title": "機械仕掛けのサラリーマン AI時代の賞味期限: なぜ真面目に働くだけでは生き残れないのか",
-      "authors": [
-        "Junming Chen"
-      ],
-      "venue": "Japanese-language book",
-      "year": 2026,
-      "type": "book",
-      "abstract": "【本書について】「このまま今の仕事を続けていて、本当に大丈夫なのだろうか？」そんな名状しがたい窒息感を抱えるすべてのビジネスパーソンへ。AI（人工知能）の進化により、過去300年続いてきた「真面目に、ミスのない完璧な仕事をする」という生存戦略は完全に崩壊しました。AIは限界費用ゼロで「完璧な標準化労働」を大量生産します。あなたがどれほどエクセルを極め、SOP（標準作業手順）を完璧にこなしても、機械の効率には絶対に勝てません。では、シリコンベースの激流の中で、私たちカーボンベース（人間）が生き残るための「武器」とは何でしょうか？ それはプログラミングスキルでも、AIのプロンプト技術でもありません。あなたの肉体が経験した痛み、偏愛、そして不完全さから生まれる「知覚的希少性」です。本書は、工学博士である著者が物理学と情報理論の視点から解き明かす、極めて冷徹な「越獄（システムからの脱出）」のための操作マニュアルです。【本書の主な内容】線形的な努力の終焉／生産力パラドックス／AIの二重メカニズム／知覚的希少性：AIが永遠に超えられない5つの生物学的防衛線／一般人のためのパラダイム・シフト。巻末付録：職業寿命アセスメントシート＆90日間実践ロードマップ収録。",
-      "bibtex": "@book{chen2026mechanical,\n  title={機械仕掛けのサラリーマン AI時代の賞味期限: なぜ真面目に働くだけでは生き残れないのか},\n  author={Chen, Junming},\n  year={2026},\n  note={Japanese-language book}\n}",
-      "links": []
-    },
-    {
-      "id": "zhangxue-locomotive-japan-machinery",
-      "title": "The Zhangxue Locomotive Breakthrough and the Boundary of the Success Mechanism of Japan's Machinery Industry: An Analysis Based on 'External Supply Structure – Paradigm Stability – Institutional Adaptation'",
-      "authors": [
-        "Junming Chen",
-        "Xue Zhang"
-      ],
-      "venue": "Contemporary Economy of Japan (现代日本经济), 2026(2), 52–67",
-      "year": 2026,
-      "type": "journal",
-      "abstract": "The breakthrough victory of Zhangxue locomotives (ZX Motor) at the 2026 World Superbike Championship provides a fresh empirical entry point for re-examining the long-standing narrative of Japan's competitive advantage in machinery. Using a unified framework of 'external supply structure – paradigm stability – institutional adaptation', this paper argues that the historical high performance of Japan's machinery industry was not simply the product of endogenous institutional and cultural advantages such as 'craftsman spirit' or seniority-based employment, but a stage-specific outcome of the coupling between a particular external supply structure and a long-stable technological paradigm. The study shows that Japan's legacy success mechanism is deeply embedded in its talent system, supply-chain structure, and profit-generation model, and therefore cannot be easily migrated across environments when the paradigm shifts — instead reversing into structural rigidity. On this basis, the paper proposes a realistic survival path for Japan's machinery industry and draws implications for the development of China's high-end equipment manufacturing and for optimizing China–Japan industrial division of labor.",
-      "links": [
-        {
-          "label": "Full text (NSSD)",
-          "url": "https://ncpssd.org/message?id=21795"
-        }
-      ]
-    },
-    {
       "id": "toc-constraints-cageo",
       "title": "Encoding geological expertise as modular computable constraints for TOC prediction in source rocks",
       "authors": [
@@ -47,6 +16,29 @@
         {
           "label": "DOI",
           "url": "https://doi.org/10.1016/j.cageo.2026.106250"
+        }
+      ]
+    },
+    {
+      "id": "jing-shen-mei-dcmed",
+      "title": "A theory-constrained digital framework of the traditional Chinese medicine Jing-Shen-Mei theory for mammalian lifespan modeling",
+      "authors": [
+        "Junming Chen",
+        "Xia Jin"
+      ],
+      "venue": "Digital Chinese Medicine 9(3), 331–343",
+      "year": 2026,
+      "type": "journal",
+      "abstract": "Objective: To construct a theory-constrained mathematical framework for the traditional Chinese medicine (TCM) Jing (精, essence)–Shen (神, spirit)–Mei (寐, sleep) theory and to evaluate a pre-specified rational closure for cross-species mammalian lifespan prediction. Methods: Jing, Shen, and Mei were operationalized as a finite life-budget reservoir, effective homeostatic capacity, and sleep-mediated daily burden reduction. A harmonized complete-case dataset was built by integrating maximum lifespan, sleep duration, and cortical/pallial neuronal abundance from the AnAge/HAGR database, the Boston University mammalian sleep records, and curated comparative neuroanatomical compilations, covering 53 species (48 directly measured neuronal records and 5 labelled brain-mass-derived records). The rational exponents (α = 2/5, β = 1/4, η = 1/5) were pre-specified before any empirical fitting, leaving only the global coefficient C to be estimated within training folds. Performance was evaluated with repeated five-fold cross-validation (100 repeats), a direct-measurement sensitivity subset, and leave-one-out cross-validation. Results: The pre-specified rational closure achieved an out-of-fold R² of 0.660 with only three variables and a single fitted coefficient, remained broadly robust on the direct-measurement subset, and was benchmarked against a family of machine-learning comparators. Conclusion: Classical TCM constructs can serve as structural priors for transparent, theory-constrained quantitative modeling, although the sparse-data protocol warrants cautious interpretation and independent validation.",
+      "bibtex": "@article{chen2026jingshenmei,\n  title={A theory-constrained digital framework of the traditional Chinese medicine {Jing-Shen-Mei} theory for mammalian lifespan modeling},\n  author={Chen, Junming and Jin, Xia},\n  journal={Digital Chinese Medicine},\n  volume={9},\n  number={3},\n  pages={331--343},\n  year={2026},\n  doi={10.1016/j.dcmed.2026.08.003},\n  url={https://doi.org/10.1016/j.dcmed.2026.08.003}\n}",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1016/j.dcmed.2026.08.003"
+        },
+        {
+          "label": "Full text (OA)",
+          "url": "http://www.dcmhi.com.cn/en/article/doi/10.1016/j.dcmed.2026.08.003"
         }
       ]
     },
@@ -149,7 +141,6 @@
       "venue": "2025 IEEE Int. Conf. on Pattern Recognition, Machine Vision and Artificial Intelligence (PRMVAI), Loudi, China",
       "year": 2025,
       "type": "conference",
-      "abstract": "A hybrid prediction model for the water hammer effect in pipeline systems that combines the finite element method (FEM) with physics-informed neural networks (PINNs), embedding physical consistency into the learned solution for transient pressure forecasting.",
       "bibtex": "@inproceedings{chen2025waterhammer,\n  title={Prediction Model for Water Hammer Effect Using a Combination of Finite Element Method (FEM) and Physics-Informed Neural Networks (PINNs)},\n  author={Chen, Junming},\n  booktitle={2025 IEEE International Conference on Pattern Recognition, Machine Vision and Artificial Intelligence (PRMVAI)},\n  address={Loudi, China},\n  year={2025},\n  doi={10.1109/PRMVAI65741.2025.11108343},\n  url={https://doi.org/10.1109/PRMVAI65741.2025.11108343}\n}",
       "links": [
         {
@@ -171,7 +162,6 @@
       "venue": "Multiphase Science and Technology 35(1), 55–68",
       "year": 2023,
       "type": "journal",
-      "abstract": "An experimental study of the lift coefficient of ellipsoidal bubbles in the viscous-force dominant regime, quantifying how surfactant contamination modifies the lateral force acting on rising bubbles.",
       "bibtex": "@article{chen2023surfactant,\n  title={Effects of Surfactant on Lift Coefficient of Ellipsoidal Bubbles in the Viscous-Force Dominant Regime},\n  author={Chen, Junming and Hayashi, Kosuke and Legendre, Dominique and Lucas, Dirk and Tomiyama, A.},\n  journal={Multiphase Science and Technology},\n  volume={35},\n  number={1},\n  pages={55--68},\n  year={2023},\n  doi={10.1615/MultScienTechnol.2023046718},\n  url={https://doi.org/10.1615/MultScienTechnol.2023046718}\n}",
       "links": [
         {
@@ -192,7 +182,6 @@
       "venue": "Multiphase Science and Technology 34(3)",
       "year": 2022,
       "type": "journal",
-      "abstract": "A data-driven correlation based on artificial neural networks for the lift coefficient of single bubbles rising in linear shear flows, trained on measured data and compared with existing theoretical and empirical models.",
       "bibtex": "@article{hayashi2022ann,\n  title={An ANN Correlation of Lift Coefficients of Bubbles in Linear Shear Flows},\n  author={Hayashi, Kosuke and Chen, Junming and Kurimoto, Ryo and Tomiyama, Akio},\n  journal={Multiphase Science and Technology},\n  volume={34},\n  number={3},\n  year={2022},\n  doi={10.1615/MultScienTechnol.2022042904},\n  url={https://doi.org/10.1615/MultScienTechnol.2022042904}\n}",
       "links": [
         {
@@ -213,7 +202,6 @@
       "venue": "Multiphase Science and Technology 31(3), 215–234",
       "year": 2019,
       "type": "journal",
-      "abstract": "New drag correlations for ellipsoidal bubbles in both clean and fully contaminated systems, covering a range of bubble aspect ratios and Reynolds numbers, established from measurements under well-defined flow conditions.",
       "bibtex": "@article{chen2019drag,\n  title={Drag Correlations of Ellipsoidal Bubbles in Clean and Fully-Contaminated Systems},\n  author={Chen, Junming and Hayashi, Kosuke and Hosokawa, Shigeo and Tomiyama, Akio},\n  journal={Multiphase Science and Technology},\n  volume={31},\n  number={3},\n  pages={215--234},\n  year={2019},\n  doi={10.1615/MultScienTechnol.2019031210},\n  url={https://doi.org/10.1615/MultScienTechnol.2019031210}\n}",
       "links": [
         {
