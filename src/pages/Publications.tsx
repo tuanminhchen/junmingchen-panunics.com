@@ -52,7 +52,7 @@ export default function Publications() {
     <div>
       <PageHeader
         title="Publications"
-        subtitle="Complete index of papers and publications."
+        subtitle="Complete index of papers and publications. Data lives in src/content/publications.json — add a new entry there and it appears here automatically."
       />
 
       <div className="mx-auto max-w-5xl px-5 py-10">
@@ -99,20 +99,31 @@ function PubEntry({ pub }: { pub: Publication }) {
   const [showBib, setShowBib] = useState(false)
   return (
     <article className="py-6">
-      <h3 className="text-base font-medium leading-snug sm:text-lg">
-        {pub.title}
-      </h3>
-      <div className="mt-2">
-        <AuthorList authors={pub.authors} />
+      <div className={pub.cover ? 'sm:flex sm:gap-6' : ''}>
+        <div className="flex-1">
+          <h3 className="text-base font-medium leading-snug sm:text-lg">
+            {pub.title}
+          </h3>
+          <div className="mt-2">
+            <AuthorList authors={pub.authors} />
+          </div>
+          <p className="mt-1 text-sm italic text-neutral-500">
+            {pub.venue}, {pub.year}
+          </p>
+          {pub.abstract && (
+            <p className="mt-2 max-w-3xl text-sm leading-relaxed text-neutral-600">
+              {pub.abstract}
+            </p>
+          )}
+        </div>
+        {pub.cover && (
+          <img
+            src={pub.cover}
+            alt={`${pub.title} cover`}
+            className="mt-4 w-36 shrink-0 self-start border border-neutral-200 sm:mt-0"
+          />
+        )}
       </div>
-      <p className="mt-1 text-sm italic text-neutral-500">
-        {pub.venue}, {pub.year}
-      </p>
-      {pub.abstract && (
-        <p className="mt-2 max-w-3xl text-sm leading-relaxed text-neutral-600">
-          {pub.abstract}
-        </p>
-      )}
       <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1">
         {pub.links.map((l) => (
           <a

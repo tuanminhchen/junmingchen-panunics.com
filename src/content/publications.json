@@ -43,6 +43,25 @@
       ]
     },
     {
+      "id": "kikai-jikake-sarariman",
+      "title": "機械仕掛けのサラリーマンAI時代の賞味期限: なぜ真面目に働くだけでは生き残れないのか",
+      "authors": [
+        "陳俊名"
+      ],
+      "venue": "Kindle電子書籍, Amazon.co.jp",
+      "year": 2026,
+      "type": "book",
+      "cover": "/images/covers/kikai-jikake-sarariman.jpg",
+      "abstract": "「このまま今の仕事を続けていて、本当に大丈夫なのだろうか？」そんな名状しがたい窒息感を抱えるすべてのビジネスパーソンへ。AI（人工知能）の進化により、過去300年続いてきた「真面目に、ミスのない完璧な仕事をする」という生存戦略は完全に崩壊しました。AIは限界費用ゼロで「完璧な標準化労働」を大量生産します。あなたがどれほどエクセルを極め、SOP（標準作業手順）を完璧にこなしても、機械の効率には絶対に勝てません。では、シリコンベースの激流の中で、私たちカーボンベース（人間）が生き残るための「武器」とは何でしょうか？それはプログラミングスキルでも、AIのプロンプト技術でもありません。あなたの肉体が経験した痛み、偏愛、そして不完全さから生まれる「知覚的希少性」です。本書は、工学博士である著者が物理学と情報理論の視点から解き明かす、極めて冷徹な「越獄（システムからの脱出）」のための操作マニュアルです。主な内容：線形的な努力の終焉――「標準化された優秀さ」は市場価値ゼロになる；生産力パラドックス；AIの二重メカニズム；知覚的希少性――AIが永遠に超えられない5つの生物学的防衛線；一般人のためのパラダイム・シフト。AIが絶対的な完璧さを追求する時代、あなたのバグ（瑰瑕）こそが最高の資産となります。巻末付録：「職業寿命アセスメントシート」＆「90日間実践ロードマップ」収録。",
+      "bibtex": "@book{chen2026kikai,\n  title={機械仕掛けのサラリーマンAI時代の賞味期限: なぜ真面目に働くだけでは生き残れないのか},\n  author={\\u9673, \\u4fca\\u540d},\n  publisher={Amazon.co.jp},\n  year={2026},\n  note={Kindle ebook, ASIN B0GXHG1JH5},\n  url={https://www.amazon.co.jp/dp/B0GXHG1JH5}\n}",
+      "links": [
+        {
+          "label": "Amazon",
+          "url": "https://www.amazon.co.jp/dp/B0GXHG1JH5"
+        }
+      ]
+    },
+    {
       "id": "temporal-routing-ns",
       "title": "Temporal Routing of Incompressible Flow: From a No-Go Theorem for Scalar Delay Representations to a Channel-Augmented Time-Domain Formulation",
       "authors": [
