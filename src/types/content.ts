@@ -56,6 +56,13 @@ export interface SiteContent {
   }
   researchInterests: string[]
   news: { date: string; text: string }[]
+  education?: {
+    degree: string
+    school: string
+    period?: string
+    schoolUrl?: string
+    logo?: string
+  }[]
   panunics: {
     summary: string
     summaryZh: string
