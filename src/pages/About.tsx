@@ -11,7 +11,7 @@ export default function About() {
     <div>
       <PageHeader title="About" subtitle={id.affiliation} />
       <div className="mx-auto max-w-5xl px-5 py-12">
-        {/* Portrait + biography */}
+        {/* Portrait + biography + portrait */}
         <div className="grid items-start gap-10 md:grid-cols-3">
           <div className="md:col-span-1">
             <img
@@ -20,7 +20,7 @@ export default function About() {
               className="w-full border border-neutral-200"
             />
           </div>
-          <div className="md:col-span-2">
+          <div className="md:col-span-1">
             <h2 className="font-display text-xl font-semibold">Biography</h2>
             <div className="mt-4 space-y-4 text-sm leading-relaxed text-neutral-700">
               <p>
@@ -36,6 +36,13 @@ export default function About() {
                 University of Adelaide, and Ph.D. from Kobe University.
               </p>
             </div>
+          </div>
+          <div className="md:col-span-1">
+            <img
+              src="/images/portrait-about2.jpg"
+              alt="Junming Chen (陈俊名)"
+              className="w-full border border-neutral-200"
+            />
           </div>
         </div>
 
