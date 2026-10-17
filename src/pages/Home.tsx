@@ -32,11 +32,8 @@ export default function Home() {
       <section className="border-b border-neutral-200">
         <div className="mx-auto flex max-w-5xl flex-col gap-10 px-5 py-20 sm:py-24 md:flex-row md:items-start md:justify-between">
           <div className="order-2 md:order-1">
-            <p className="text-xs uppercase tracking-[0.35em] text-accent">
-              {content.identity.brand}
-            </p>
             <h1 className="font-display mt-4 text-5xl font-semibold leading-tight tracking-tight sm:text-7xl">
-              JUNMING CHEN
+              PANUNICS
             </h1>
             <p className="font-display mt-2 text-2xl text-neutral-500 sm:text-3xl">
               {content.identity.nameZh}
@@ -68,7 +65,7 @@ export default function Home() {
             <img
               src="images/portrait-2026.jpg"
               alt="Junming Chen (陈俊名)"
-              className="w-48 border border-neutral-200 sm:w-56 md:w-64"
+              className="w-48 sm:w-56 md:w-64"
             />
           </div>
         </div>

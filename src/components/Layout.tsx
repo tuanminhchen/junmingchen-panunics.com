@@ -38,9 +38,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <span className="font-display text-lg font-semibold tracking-wide">
               JUNMING CHEN
             </span>
-            <span className="hidden text-xs uppercase tracking-[0.25em] text-accent sm:inline">
-              Panunics
-            </span>
           </Link>
 
           <nav className="hidden items-center gap-5 md:flex">
