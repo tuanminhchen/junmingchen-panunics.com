@@ -30,22 +30,22 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="border-b border-neutral-200">
-        <div className="mx-auto flex max-w-5xl flex-col gap-10 px-5 py-20 sm:py-24 md:flex-row md:items-start md:justify-between">
-          <div className="order-2 md:order-1">
+        <div className="mx-auto flex max-w-5xl flex-col items-center gap-10 px-5 py-16 sm:py-20 md:flex-row md:justify-center md:gap-14">
+          <div className="order-2 max-w-xl text-center md:order-1 md:text-left">
             <h1 className="font-display mt-4 text-5xl font-semibold leading-tight tracking-tight sm:text-7xl">
               PANUNICS
             </h1>
             <p className="font-display mt-2 text-2xl text-neutral-500 sm:text-3xl">
               {content.identity.nameZh}
             </p>
-            <p className="mt-6 max-w-2xl text-lg text-neutral-700">
+            <p className="mt-6 text-lg text-neutral-700">
               {content.identity.tagline}
             </p>
-            <p className="mt-2 max-w-2xl text-neutral-500">
+            <p className="mt-2 text-neutral-500">
               {content.identity.taglineZh}
             </p>
 
-            <div className="mt-10 flex flex-wrap items-center gap-3">
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-3 md:justify-start">
               <Link
                 to="/publications"
                 className="inline-flex items-center gap-2 bg-neutral-900 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-accent"
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="order-1 shrink-0 md:order-2 md:mt-[4.75rem]">
+          <div className="order-1 shrink-0 md:order-2">
             <img
               src="images/portrait-2026.jpg"
               alt="Junming Chen (陈俊名)"
