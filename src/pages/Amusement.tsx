@@ -8,6 +8,7 @@ interface AmusementItem {
   date?: string
   duration?: string
   youtube?: string
+  bilibili?: string // BV id or full bilibili.com video URL
   video?: string
   poster?: string
   description?: string
@@ -20,6 +21,11 @@ function youtubeId(url: string): string {
     /(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{6,})/
   )
   return m ? m[1] : url.trim()
+}
+
+function bilibiliBvid(url: string): string {
+  const m = url.match(/BV[\w]+/)
+  return m ? m[0] : url.trim()
 }
 
 export default function Amusement() {
@@ -42,7 +48,18 @@ export default function Amusement() {
               {[v.date, v.duration].filter(Boolean).join(' · ')}
             </p>
 
-            {v.youtube ? (
+            {v.bilibili ? (
+              <div className="mt-4 aspect-video w-full">
+                <iframe
+                  className="h-full w-full"
+                  src={`https://player.bilibili.com/player.html?bvid=${bilibiliBvid(v.bilibili)}&autoplay=0&danmaku=0`}
+                  title={v.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+            ) : v.youtube ? (
               <div className="mt-4 aspect-video w-full">
                 <iframe
                   className="h-full w-full"
